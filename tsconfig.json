@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "node16",
+    "target": "es2021",
+    "lib": ["es2021"],
+    "moduleResolution": "node16",
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "noUncheckedIndexedAccess": true,
+    "outDir": "dist",
+    "types": ["jest", "node"]
+  },
+  "include": ["src"]
+}
