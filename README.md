@@ -21,7 +21,7 @@ import { parseConditionalRestrictions } from 'osm-conditional-restrictions';
 
 const tags = {
   access: 'no',
-  'access:conditional': 'yes @ (09:00-17:00 AND weight < 3.5)',
+  'access:conditional': 'yes @ (09:00-17:00 ; weight < 3.5)',
 };
 const output = parseConditionalRestrictions('access', tags);
 
@@ -51,4 +51,4 @@ To parse the [opening hours syntax](https://osm.wiki/Key:opening_hours), check o
 
 ## Related Work
 
-- [simonpoole/ConditionalRestrictionParser](https://github.com/simonpoole/ConditionalRestrictionParser) - An equivilant library written in Java
+- [simonpoole/ConditionalRestrictionParser](https://github.com/simonpoole/ConditionalRestrictionParser) - An equivalent library written in Java
